@@ -21,3 +21,9 @@ nav {
 h1 {
     text-align: center;
 }
+
+#portrait {
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+}
