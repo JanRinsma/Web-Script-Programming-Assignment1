@@ -13,7 +13,7 @@ nav {
     padding-bottom: 2%;
     text-align: center;
     border: solid 2px red;
-    width: 100% -4px;
+    width: 100%;
     background-color: lightblue;
 }
 
@@ -30,7 +30,7 @@ h1 {
     text-align: center;
 }
 
-h2, h3 {
+h2 {
     text-decoration-line: underline;
 }
 
@@ -44,6 +44,12 @@ img {
 p {
     padding-left: 20%;
     padding-right: 20%;
+}
+
+video {
+    border: 2px solid black;
+    width: 40vw;
+    height: 35vh;
 }
 
 #leftlink {
