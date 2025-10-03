@@ -20,7 +20,8 @@ nav {
 
 footer {
     position: absolute;
-    bottom: 5%;
+    bottom: 3%;
+    text-align: left;
 }
 
 h1 {
