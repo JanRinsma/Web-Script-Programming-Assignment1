@@ -1,25 +1,48 @@
+@font-face {
+    font-family: imported-font;
+    src: url(CactusClassicalSerif-Regular.ttf)
+}
+
+body {
+    font-family: imported-font;
+    background-color: aquamarine;
+}
+
 nav {
     text-align: center;
     border: solid 2px red;
-    width: 25%;
+    width: 17%;
     background-color: lightblue;
 }
 
-#leftlink {
-    padding-right: 20px;
-}
-
-#middlelink {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-#rightlink {
-    padding-left: 20px;
+footer {
+    position: absolute;
+    bottom: 5%;
 }
 
 h1 {
+    background-color: lightblue;
+    margin-left: 42.5%;
+    width: 15%;
+    border: 2px solid black;
     text-align: center;
+}
+
+h1, h2, h3 {
+    text-decoration-line: underline;
+}
+
+#leftlink {
+    padding-right: 2%;
+}
+
+#middlelink {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#rightlink {
+    padding-left: 2%;
 }
 
 #portrait {
