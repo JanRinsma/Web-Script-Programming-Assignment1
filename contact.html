@@ -6,8 +6,12 @@
         <title>Contact Page</title>
         <link rel="stylesheet" href="laptop.css">
     </head>
-    <body class="center">
-        <a href="home.html">Home</a>
+    <body class="nogradient">
+        <nav>
+            <a href="home.html" id="leftlink">Home</a>
+            <a href="about.html" id="middlelink">About Me</a>
+            <a href="projects.html" id="rightlink">My Projects</a>
+        </nav>
         <h1>Contact Page</h1>
         <section>
         <h2>If you have any questions or concerns, contact me using the 
@@ -19,7 +23,8 @@
             <input type="text" id="name" name="name" size="25" placeholder="Put your first and last name here" required><br><br>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" placeholder="Put your email here" required><br><br>
-            <textarea name="message" rows="20" cols="50" placeholder="Enter your message here" required></textarea><br><br>
+            <label for="message">Enter message here -></label>
+            <textarea style="margin-right: 7%;" id="message" name="message" rows="20" cols="50" placeholder="Enter your message here" required></textarea><br><br>
             <input type="submit" name="submit">
             </form>
         </article>

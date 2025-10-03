@@ -5,16 +5,17 @@
 
 body {
     font-family: imported-font;
-    background-color: aquamarine;
+    color: #6c9662;
+    text-align: center;
 }
 
 nav {
     padding-top: 2%;
     padding-bottom: 2%;
     text-align: center;
-    border: solid 2px red;
+    border: solid 2px #1d4014;
     width: 100%;
-    background-color: lightblue;
+    background-color: #ebc0e1
 }
 
 footer {
@@ -23,22 +24,27 @@ footer {
 }
 
 h1 {
-    background-color: lightblue;
+    border-radius: 50%;
+    background-color: #ebc0e1;
     margin-left: 42.5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     width: 15%;
-    border: 2px solid black;
+    border: 2px solid #1d4014;
     text-align: center;
 }
 
 h2 {
     text-decoration-line: underline;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 img {
     border-radius: 50%;
     width: 15%;
     height: 20%;
-    border: 2px solid black;
+    border: 2px solid #1d4014;
 }
 
 p {
@@ -47,7 +53,7 @@ p {
 }
 
 video {
-    border: 2px solid black;
+    border: 2px solid #1d4014;
     width: 40vw;
     height: 35vh;
 }
@@ -69,10 +75,20 @@ video {
     margin-top: 15%;
 }
 
-.center {
-    text-align: center;
+#lineargradient {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #6b335f, #ab7da1, #ebc0e1);
+}
+
+#anglegradient {
+    background-image: linear-gradient(to bottom right, #1d4014, #6c9662, #c9ebc0);
+    color: #6b335f
+}
+
+.nogradient {
+    background-color: #c9ebc0;
 }
 
 .spacing {
-    margin-top: 5%;
+    margin-top: 3%;
 }
