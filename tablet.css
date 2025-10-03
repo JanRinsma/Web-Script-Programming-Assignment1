@@ -26,9 +26,9 @@ footer {
 h1 {
     border-radius: 50%;
     background-color: #ebc0e1;
-    margin-left: 42.5%;
+    margin: auto;
     padding: 2% 2% 2% 2%;
-    width: 15%;
+    width: 30%;
     border: 2px solid #1d4014;
     text-align: center;
 }
@@ -89,11 +89,4 @@ video {
 
 .spacing {
     margin-top: 3%;
-}
-
-@media screen and (max-width: 1000px) {
-    h1 {
-        margin-left: 35%;
-        width: 30%;
-    }
 }
