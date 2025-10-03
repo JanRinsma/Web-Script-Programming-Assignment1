@@ -4,6 +4,7 @@
 }
 
 body {
+    filter: contrast(150%);
     font-family: imported-font;
     color: #1d4014;
     text-align: center;
