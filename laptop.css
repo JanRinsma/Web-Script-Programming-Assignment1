@@ -1,0 +1,23 @@
+nav {
+    text-align: center;
+    border: solid 2px red;
+    width: 25%;
+    background-color: lightblue;
+}
+
+#leftlink {
+    padding-right: 20px;
+}
+
+#middlelink {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#rightlink {
+    padding-left: 20px;
+}
+
+h1 {
+    text-align: center;
+}
