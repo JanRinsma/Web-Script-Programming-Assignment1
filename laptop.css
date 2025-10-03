@@ -9,9 +9,11 @@ body {
 }
 
 nav {
+    padding-top: 2%;
+    padding-bottom: 2%;
     text-align: center;
     border: solid 2px red;
-    width: 17%;
+    width: 100% -4px;
     background-color: lightblue;
 }
 
@@ -28,8 +30,20 @@ h1 {
     text-align: center;
 }
 
-h1, h2, h3 {
+h2, h3 {
     text-decoration-line: underline;
+}
+
+img {
+    border-radius: 50%;
+    width: 15%;
+    height: 20%;
+    border: 2px solid black;
+}
+
+p {
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 #leftlink {
@@ -45,8 +59,14 @@ h1, h2, h3 {
     padding-left: 2%;
 }
 
-#portrait {
-    width: 300px;
-    height: 400px;
-    border: 2px solid black;
+#homeheader {
+    margin-top: 15%;
+}
+
+.center {
+    text-align: center;
+}
+
+.spacing {
+    margin-top: 5%;
 }
